@@ -1,0 +1,93 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <!-- disable advertising id permission obtaining -->
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/>
+
+    <queries>
+      <!-- https://react-native-share.github.io/react-native-share/docs/install -->
+      <package android:name="com.whatsapp" />
+      <package android:name="org.telegram.messenger" />
+      <package android:name="com.twitter.android" />
+      <package android:name="com.facebook.katana" />
+
+      <!-- https://reactnative.dev/docs/linking.html#canopenurl -->
+      <intent>
+          <action android:name="android.intent.action.VIEW" />
+          <data android:scheme="https"/>
+      </intent>
+      <intent>
+          <action android:name="android.intent.action.VIEW" />
+          <data android:scheme="sms"/>
+      </intent>
+      <intent>
+          <action android:name="android.intent.action.VIEW" />
+          <data android:scheme="mailto"/>
+      </intent>
+    </queries>
+
+    <application
+      android:name=".MainApplication"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:allowBackup="false"
+      android:theme="@style/BootTheme">
+
+      <!--
+        Disabling Sentry ANR reporting, since there are a lot of Background ANR reports
+        that are not visible to users and are occured on some exotic devices.
+        For example 60% of background ANRs are reported from device model CPH2357 only.
+        User-perceived ANRs (the ones that are visible to users through a dialog on the screen)
+        are still reported by Google Play Console and might be debugged there.
+        https://docs.sentry.io/platforms/android/configuration/app-not-respond/
+      -->
+      <meta-data android:name="io.sentry.anr.enable" android:value="false" />
+
+      <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/FACEBOOK_APP_ID"/>
+      <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/FACEBOOK_CLIENT_TOKEN"/>
+      <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_notification"
+            tools:replace="android:resource" />
+      <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/splashscreen_bg"
+            tools:replace="android:resource"/>
+
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+        android:launchMode="singleTask"
+        android:windowSoftInputMode="adjustResize"
+        android:exported="true">
+        <intent-filter>
+          <action android:name="android.intent.action.MAIN" />
+          <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <intent-filter android:autoVerify="true">
+          <action android:name="android.intent.action.VIEW"/>
+          <category android:name="android.intent.category.DEFAULT"/>
+          <category android:name="android.intent.category.BROWSABLE"/>
+          <data android:host="@string/DEEPLINK_DOMAIN" android:scheme="http"/>
+          <data android:host="@string/DEEPLINK_DOMAIN" android:scheme="https"/>
+        </intent-filter>
+
+        <intent-filter>
+          <action android:name="android.intent.action.VIEW"/>
+          <category android:name="android.intent.category.DEFAULT"/>
+          <category android:name="android.intent.category.BROWSABLE"/>
+          <data android:host="*" android:scheme="@string/DEEPLINK_SCHEME"/>
+        </intent-filter>
+      </activity>
+    </application>
+</manifest>

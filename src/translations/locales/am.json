@@ -1,0 +1,228 @@
+{
+  "button": {
+    "yes_btn": "አዎ፣ እባክህ",
+    "next_btn": "ቀጣይ",
+    "not_now": "አሁን አይደለም",
+    "view_all": "ሁሉን ተመልከት",
+    "invite_friend": {
+      "title": "ጓደኞች ጋብዝ",
+      "description": "ጓደኞችዎን በመጋበዝ ተጨማሪ [[:ice]] ያትርፉ።"
+    },
+    "see_all": "ሁሉን ዕይ",
+    "no": "አይ",
+    "search_country": "ሀገር ፈልግ",
+    "save": "አስቀምጥ",
+    "yes": "አዎ",
+    "change": "ቀይር",
+    "no_cancel": "አይ፣ ተው",
+    "complete": "አጠናቅቅ",
+    "cancel": "ተው",
+    "clear": "አጥፋ",
+    "finish": "ጨርስ",
+    "next_step": "ቀጣይ እርምጃ",
+    "back": "ኋላ",
+    "search": "ፈልግ",
+    "continue": "ቀጥል",
+    "apply": "ተግብር",
+    "reset": "ዳግም አስጀምር",
+    "skip_all": "ሁሉን ዝለል",
+    "done": "ተከናውኗል",
+    "confirm": "አረጋግጥ",
+    "do_this_later": "ይህን በኋላ አድርግ",
+    "resurrect_me": "አስነሳኝ",
+    "claim_bonus": "ጉርሻ ጠይቅ",
+    "close": "ዝጋ",
+    "try_again": "እንደገባ ሞክር",
+    "view_changelog": "የቅየራመዝገብ ተመልከት",
+    "disable": "ስራ አስቁም",
+    "agree": "እስማማለሁ",
+    "learn_more": "የበለጠ ማወቅ",
+    "back_to_login": "ወደ መግቢያ ተመለስ",
+    "follow_us": "ይከተሉን",
+    "subscribe": "ተመዝገብ",
+    "not_sure": "እርግጠኛ አይደለሁም",
+    "confirm_address": "አድራሻ አረጋግጥ",
+    "remove_address": "አድራሻ አስወግድ",
+    "start": "ምረጥ",
+    "faq": "ብቻ ጥያቄዎች",
+    "knowledge_base": "ስማር ክፍል"
+  },
+  "errors": {
+    "nicknameSize": "የቅጽ ስም መጠን፦ 4-20 ቁምፊዎች።",
+    "removeInvalidCharacters": "ትክክል ያልሆኑ ቁምፊዎችን አስወግድ።",
+    "validation_error": "አንዳንድ የማረጋገጫ ስህተት።",
+    "multiple_accounts": "ኢሜይል/ስልክ ቁጥር ከሌላ መለያ ጋር የተቆራኘ ነው። ባለቤትነትን ለማረጋገጥ እባክዎን ወደዚያ መለያ ይግቡ፣ ከዚያ ይውጡ እና ተመልሰው ወደዚህ መለያ ይግቡ። የዛ ሌላ መለያ ባለቤት ካልሆኑ ወይም መግባት ካልቻሉ፣ እባክዎን የእኛን ድጋፍ ያነጋግ።",
+    "wrong_phone_number": "ልክ ያልሆነ ስልክ ቁጥር፣ እባክዎ እንደገና ይሞክሩ።",
+    "invalid_username": "ልክ ያልሆነ ቅጽል ስም።",
+    "email_already_taken": "ኢሜይል አስቀድሞ ተወስዷል።",
+    "phone_number_already_taken": "ስልክ ቁጥር አስቀድሞ ተወስዷል።",
+    "invalid_validation_code": "ልክ ያልሆነ ስልክ ቁጥር፣ እባክዎ እንደገና ይሞክሩ።",
+    "validation_expired": "ማረጋገጫ ጊዜው አብቅቷል",
+    "validation_not_found": "ማረጋገጫ አልተገኘም",
+    "invalid_email": "ልክ ያልሆነ ኢሜይል።",
+    "invalid_password": "ልክ ያልሆነ የይለፍ ቃል።",
+    "invalid_ref_username": "ልክ ያልሆነ ቅጽል ስም።",
+    "invalid_phone": "ልክ ያልሆነ ስልክ ቁጥር።",
+    "user_disabled": "ተጠቃሚ እንዳይሰራ ተደርጓል።",
+    "expired_action_code": "በኢሜይል አገናኝ ያለው OTP አገልግሎት ጊዜ አብቅቷል።",
+    "account_exists_with_different_credential": "በማረጋገጫው የተረጋገጠ የኢሜይል አድራሻ ያለው መለያ አስቀድሞ አለ።",
+    "invalid_credential": "የማረጋገጫ ማስረጃዎቹ የተበላሹ ናቸው ወይም ጊዜው አልፎባቸዋል።    ",
+    "operation_not_allowed": "ከማስረጃዎቹ ጋር የሚዛመደው የመለያ አይነት መስራት አልጀመረም።",
+    "user_not_found_for_email": "ከተሰጠው ኢሜይል ጋር የሚዛመድ ተጠቃሚ የለም።",
+    "user_not_found": "ተጠቃሚ አልተገኘም።",
+    "auth_in_progress": "መግባት አስቀድሞ በሂደት ላይ ነው።",
+    "google_play_services_not_available": "Google Play አገልግሎቶች በዚህ መሳሪያ ላይ አይገኙም።",
+    "unknown_error_with_code": "ያልታወቀ ስህተት። {{code}}",
+    "no_such_provider": "ይህን አቅርቢ የተገናኘ የለዎትም።",
+    "min_username": "ዝቅተኛው ርዝመት 4 ቁምፊዎች ነው።",
+    "max_username": "ከፍተኛው ርዝመት 30 ቁምፊዎች ነው።",
+    "code_expired": "ኮዱ ጊዜው አልፎበታል፣ እባክዎ አዲስ ኮድ ይጠይቁ።",
+    "too_many_requests": "በጣም ብዙ ጥየቃዎች፣ እባክዎ ቆይተው እንደገና ይሞክሩ።",
+    "network_error_title": "በይነመረብ ግንኙነት የለም",
+    "network_error_message": "የእርስዎ መሳሪያ ምንም ገቢር የበይነመረብ ግንኙነት የለውም።",
+    "unknown_error": "ስህተት አጋጥሟል፣ እባክዎ ትንሽ ቆይተው ይሞክሩ።",
+    "general_error_title": "ውይ...",
+    "general_error_message": "የሆነ ችግር የተፈጠረ ይመስላል። ቡድናችን አሁን ለማስተካከል እየሰራ ነው።",
+    "general_network_error": "Aየአውታረ መረብ ስህተት ተፈጥሯል፣ እባክዎ ግንኙነትዎን ያረጋግጡ።",
+    "credential_already_in_use": "እነዚህ ምስክርነቶች ቀድሞውንም ከተለየ የተጠቃሚ መለያ ጋር   የተቆራኙ ናቸው።        ",
+    "email_already_in_use": "የኢሜይል አድራሻው አስቀድሞ በሌላ መለያ ጥቅም ላይ ውሏል።",
+    "user_token_expired": "የእርስዎ ምስክርነቶች ከአሁን በኋላ የሚሰሩ አይደሉም፣ እባክዎ እንደገና ይግቡ።",
+    "requires_recent_login": "ይህ ክዋኔ ሚስጥራዊነት ያለው እና የቅርብ ጊዜ ማረጋገጫን ይፈልጋል። እባክዎ እንደገና ይግቡ።",
+    "same_email": "ተመሳሳይ ኢሜይል መጠቀም አይችሉም።",
+    "weak_password": "ደካማ የይለፍ ቃል።",
+    "wrong_password": "የተሳሳተ የይለፍ ቃል።",
+    "no_camera_permissions": "የካሜራ ፈቃዶች አልተሰጡም።",
+    "no_library_permissions": "የቤተ-መጽሐፍት ፈቃዶች አልተሰጡም።",
+    "blockchain_address_already_taken": "አድራሻ ቀድሞ ተወስዷል",
+    "invalid_blockchain_address": "ልክ ያልሆነ አድራሻ",
+    "address_not_eoa": "አድራሻ ኢኦኤ አይደለም",
+    "same_phone_error": "ተመሳሳይ ቁጥር መጠቀም አይችሉም",
+    "unable_to_validate_bsc_addr_eoa": "አይዛመው የኢትዮጵያ አካውንት ማውረድ እንዲችል አይችልም"
+  },
+  "global": {
+    "level": "ደረጃ",
+    "referrals": "ምሪቶች",
+    "coin": "ሳንቲሞች",
+    "social": "ማህበራዊ",
+    "phone_number": "ስልክ ቁጥር",
+    "years": "ዓመታት",
+    "of": " ከ ",
+    "attention": "ትኩረት",
+    "email_address": "የኢሜይል አድራሻ",
+    "password": "የይለፍ ቃል",
+    "data_hidden": "ውሂቡ ተደብቋል",
+    "pull_to_refresh": "ለማዘመን ይጎትቱ",
+    "comingSoon": "በቅርብ ቀን",
+    "date": {
+      "today": "ዛሬ"
+    }
+  },
+  "general": {
+    "good_morning": "ደህና አደሩ",
+    "good_afternoon": "ደህና ዋሉ",
+    "good_evening": "ደህና አመሹ",
+    "ice": "Ice",
+    "ice_per_hour": "Ice/ሰ",
+    "seconds_short": "ሴ",
+    "minutes_short": "ደ",
+    "hours_short": "ሰ",
+    "days_short": "ቀ",
+    "hour": {
+      "zero": "ሰዓቶች",
+      "one": "ሰዓት",
+      "two": "ሰዓቶች",
+      "few": "ሰዓቶች",
+      "many": "ሰዓቶች",
+      "other": "ሰዓቶች"
+    },
+    "day": {
+      "zero": "ቀንዶች",
+      "one": "ቀን",
+      "two": "ቀንዶች",
+      "few": "ቀንዶች",
+      "many": "ቀንዶች",
+      "other": "ቀንዶች"
+    },
+    "minutes_abbr": "ደቂቃ",
+    "seconds_abbr": "ሰከንድ"
+  },
+  "links": {
+    "pre_staking": "https://ice.io/pre-staking/",
+    "privacy": "https://ice.io/privacy/",
+    "terms": "https://ice.io/terms/",
+    "main": "https://ice.io/"
+  },
+  "promo_section": {
+    "web": {
+      "title": "ለዌብሳይት ባለቤቶች መክተቻ & Play",
+      "description": "ኤምቤድ Ice አውታረ መረብ በቀጥታ በእርስዎ ድረ ገጽ ላይ ቀላል እና ተለዋዋጭ JS ዓርማ ጋር. ከድረ ገጻችሁ ምልክት ጋር ለመመሳሰል የሚያስችል ፈጣን እና ቀላል ማመቻቸት ነው። ወደ 50 ቋንቋዎች የተተረጎመ ሲሆን ከማንኛውም የድረ-ገጽ መድረክ ጋር ይጣጣማል.\n\nኮዱን በድረ ገጻችሁ ውስጥ ገልብጠው ይለጥፉ፤ እንዲሁም ማስተዋወቅ ጀምሩ Ice ድረ ገጽ ለጎብኚዎችዎ ዛሬ.",
+      "action": "አርማውን ይጫኑ"
+    },
+    "mobile": {
+      "title": "ቤተ መጻሕፍት ለሞባይል አፕሊኬሽኖች",
+      "description": "በቀላሉ ጥቅም ላይ የሚውለው ቤተ-መጻሕፍታችንን በተንቀሳቃሽ መተግበሪያዎ ውስጥ ያዋቅሩ እና ተጠቃሚዎችዎን ወደ ጥቃቅን-ማህበረሰብዎ እንዲቀላቀሉ እና የማዕድን ማውጫ እንዲጀምሩ ይጋብዝዎት.\n\nየትርጉም ድጋፍ እና ተጣጣፊ ማመቻቸት አማራጮች ጋር, እርስዎ ተጠቃሚዎች ሁሉ አንድ ታላቅ ማግኘት እንዲችሉ ማረጋገጥ ይችላሉ Ice በዓለም ላይ የትም ይኑሩ ልምድ",
+      "action1": "የ Android ቤተ መጻሕፍት",
+      "action2": "የአገሬው ቤተ መጻሕፍት"
+    }
+  },
+  "practices_section": {
+    "good": {
+      "title": "ጥሩ ልማዶች",
+      "rules": {
+        "01": {
+          "title": "እውነተኛ ሁን",
+          "description": "ከግል ተሞክሮህና ከአመለካከትህ በመነሳት ጻፍ ። ሐቀኝነታችሁንና ስሜታችሁን አካፍሉ Ice አውታረ መረብ."
+        },
+        "02": {
+          "title": "ወዳጃዊ በሆነ የድምፅ ቃና ተጠቀም",
+          "description": "ከጓደኛህ ጋር እየተነጋገርክ እንዳለህ አድርገህ ጻፍ፤ እንዲሁም አንባቢዎቹ ለመረዳት አስቸጋሪ ሊሆንባቸው የሚችሉ ከልክ ያለፈ የቴክኒክ አገላለጽ ወይም ቋንቋ ከመጠቀም ተቆጠብ።"
+        },
+        "03": {
+          "title": "የፈጠራ ችሎታ ይኑርህ",
+          "description": "የተለያዩ የይዘት አይነቶች, ለምሳሌ ጦማር ድረ-ገጾችን, ቪዲዮዎችን, ወይም የማህበራዊ ሚዲያ ማሻሻያዎችን ሙከራ ለማድረግ አትፍራ. አዝናኝ እና አዳዲስ ይሁኑ በማስተዋወቅ መንገድ Ice ለአድማጮችህ ድረ ገጽ።"
+        }
+      }
+    },
+    "bad": {
+      "title": "መጥፎ ልማዶች",
+      "rules": {
+        "01": {
+          "title": "አታስተምር የአማርኛ ምሳሌ ነው",
+          "description": "ያልተጠየቁ መልዕክቶችን ከመላክ ወይም ተመሳሳይ ይዘት በተለያዩ መድረኮች ላይ በተደጋጋሚ ከመለጠፍ ተቆጠቡ። ይህ ደግሞ የሚያበሳጭና የሚያበሳጭ እንደሆነ ተደርጎ ሊታይ ይችላል ።"
+        },
+        "02": {
+          "title": "ሰዎችን አታሳስቱ",
+          "description": "Ice ፕሮጀክት ተጠቃሚዎች ምንም ገንዘብ አይከፍሉም, እኛ ብቻ ይክሳቸዋል Ice ሳንቲሞች ። እባክዎን 'የእርስዎን አዙሩ' የመሳሰሉ ይዘቶች ከመለጠፍ ይቆጠቡ Ice ወደ ጥሬ ገንዘብ», 'እንዴት $ 100 ጋር ማግኘት እንደሚቻል Ice' ወዘተ . . ."
+        },
+        "03": {
+          "title": "በማጭበርበር ድርጊቶች አትካፈሉ",
+          "description": "በማኅበረሰባችን ውስጥ ያለውን ግልጽነትእና ሐቀኝነት ከፍ አድርገን እንመለከተው። ብዙ ሂሳብ መፍጠር ወይም የተንኮል ሙከራን የመሳሰሉ ማንኛውም የማጭበርበር ድርጊቶች Ice ድረ ገጽ በቸልታ አይታለፍም።"
+        }
+      }
+    }
+  },
+  "mainnet_landing": {
+    "header": "የአይስ ተራብያ ሙያ መሰረታዊ አስተካክለት ነበር። የ2024ዓምሪ 7ት በመስመር ዋሻ አዲስ አስተካክለትን በተጠቀሙት አፕ ወደምታይን ይሰጣል።",
+    "stats": {
+      "header": "የአይስ መረጃዎች",
+      "circulating_supply": "አንድነት የምርት መንገድ",
+      "total_supply": "አጠቃላይ የምርት መንገድ",
+      "price": "ዋጋ",
+      "market_cap": "የገንዘብ ጭምር",
+      "daily_trading_volume": "24 ሰዓት የምረት ብር መጠን",
+      "dilluted_market_cap": "አጥቂያ የገንዘብ ጭምር"
+    },
+    "countdown": {
+      "header": "የአይስ ዋና ላይክ"
+    },
+    "roadmap": {
+      "header": "የእኛ አስተካክል",
+      "title": "Whitepaper",
+      "subtitle": "የእኛ አስተካክል ስለኛ ዝርዝር በአይስ ተናጋሪዎች."
+    },
+    "join_mainnet": {
+      "title": "በተመለከተ የተሰራ መረጃ",
+      "subtitle": "የተመለከተውን የአይስ ዋና አፕ እና በመከፋፈል የኛ መረጃን ይቀንስል።"
+    }
+  }
+}
